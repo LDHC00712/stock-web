@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stock Market Overview</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
 
+<header class="header">
+  <h1>STOCK MARKET</h1>
+  <p>Market Overview for Presentation</p>
+</header>
+
+<main class="container">
+
+  <section class="market-summary">
+    <div class="card up">
+      <span>SET Index</span>
+      <h2>1,432.25</h2>
+      <p>+12.34 (+0.87%)</p>
+    </div>
+
+    <div class="card down">
+      <span>NASDAQ</span>
+      <h2>15,210.80</h2>
+      <p>-98.21 (-0.64%)</p>
+    </div>
+
+    <div class="card up">
+      <span>S&P 500</span>
+      <h2>4,891.12</h2>
+      <p>+21.77 (+0.45%)</p>
+    </div>
+  </section>
+
+  <section class="stock-table">
+    <h3>Top Stocks</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Price</th>
+          <th>Change</th>
+          <th>%</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="up">
+          <td>PTT</td>
+          <td>35.25</td>
+          <td>+0.75</td>
+          <td>+2.17%</td>
+        </tr>
+        <tr class="down">
+          <td>AOT</td>
+          <td>61.00</td>
+          <td>-1.50</td>
+          <td>-2.40%</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Data for presentation only</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
